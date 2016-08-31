@@ -1,0 +1,113 @@
+INFO	?	main	2016-08-07T08:05:44.747Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	pool-1-thread-1	2016-08-07T08:05:45.027Z	org.javacs.JavaLanguageServer#doLint	Lint h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+SEVERE	?	pool-1-thread-1	2016-08-07T08:05:45.040Z	org.javacs.Main#lambda$run$0	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+org.javacs.ShowMessageException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.ShowMessageException.create(ShowMessageException.java:29)
+	at org.javacs.ShowMessageException.warning(ShowMessageException.java:20)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:185)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:217)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:182)
+	... 12 more
+
+SEVERE	?	pool-1-thread-1	2016-08-07T08:11:53.242Z	org.javacs.Main#lambda$run$0	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+org.javacs.NoJavaConfigException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARNING	?	pool-1-thread-1	2016-08-07T08:11:53.243Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+SEVERE	?	pool-1-thread-1	2016-08-07T08:12:02.981Z	org.javacs.Main#lambda$run$0	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+org.javacs.NoJavaConfigException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARNING	?	pool-1-thread-1	2016-08-07T08:12:02.981Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+INFO	?	pool-1-thread-1	2016-08-07T08:12:35.021Z	org.javacs.JavaLanguageServer#doLint	Lint h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+SEVERE	?	pool-1-thread-1	2016-08-07T08:12:35.021Z	org.javacs.Main#lambda$run$0	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+org.javacs.NoJavaConfigException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didSave(JavaLanguageServer.java:232)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:223)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARNING	?	pool-1-thread-1	2016-08-07T08:12:35.022Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+SEVERE	?	pool-1-thread-1	2016-08-07T08:12:43.662Z	org.javacs.Main#lambda$run$0	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+org.javacs.NoJavaConfigException: Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:216)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:221)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARNING	?	pool-1-thread-1	2016-08-07T08:12:43.663Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for h:\MainColor\app\src\main\java\com\mikirasora\maincolor\MainActivity.java
